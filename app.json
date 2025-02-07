@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Proactively",
+    "slug": "proactively",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/splash.png", 
+      "resizeMode": "contain", 
+      "backgroundColor": "#204CBB"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.proactively.proactively",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#204CBB"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/icon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "eaf6eebd-a0b4-4418-97c8-f2eca8c3919c"
+      }
+    }
+  }
+}
